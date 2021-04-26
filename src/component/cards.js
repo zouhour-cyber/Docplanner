@@ -1,4 +1,5 @@
 import {Card} from 'react-bootstrap';
+import carte from './component/carte.js';
 
 function Cards(){
     return(

@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import Menu from './component/navbar.js';
-import Cards from'./component/cards.js';
-import Countries from './component/countries.js';
+import TravelCards from './component/travelcards.js';
+import MesCartes from'./component/mescartes.js';
+
 import Description from './component/description.js';
 import {Button} from 'react-bootstrap';
 import Footer from './component/footer.js';
@@ -13,12 +14,12 @@ function App() {
     <div className="App">
    <Menu/>
    <div className="cadre">
-   <div className="Container"> 
+   <div className="Container mt-5"> 
    <img
         src="/docplanner.png"
         width="50"
         height="40"
-        className="d-inline-block align-top"
+        className="d-inline-block mt-5 "
         alt="React Bootstrap logo"
       />
 
@@ -31,7 +32,7 @@ function App() {
       </div> 
   
      
-      <Cards/>
+      <MesCartes/>
       <div className="row d-flex justify-content-center my-5">
         <div className="col-md-3 col-12 my-3" > 
 <h4 > We are a global company
@@ -102,7 +103,7 @@ with local culture</h4>
 </div>
 
 <div className="cadre">
-<Countries/>
+<TravelCards/>
 </div>
 <div className="row join">
 <div>
