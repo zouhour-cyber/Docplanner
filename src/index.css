@@ -124,5 +124,20 @@ line-height: 1;
 .title-card{
   font-size:1.5rem;
   font-family:'Work Sans', sans-serif ;
+  font-weight: bold;
   
+}
+
+.selection{
+  margin-top:60px;
+}
+select{
+ 
+  background-color: transparent;
+  border: none;
+  color:white;
+  
+}
+select option{
+  color:black;
 }
