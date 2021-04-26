@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  background-color: light;
+  color:#747474;
+  
 }
-
+.btn-sm{
+  font-size:5px;
+}
+.Container{
+  margin-top:2rem;
+  text-align:center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +21,13 @@
   }
 }
 
+h2,h3,h4{
+  color:#00b39b;
+}
+
+ul{
+  list-style: none;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +51,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* .Card.Card{
+  box-shadow: 10px 10px 10px 10px black;
+} */
+
+
