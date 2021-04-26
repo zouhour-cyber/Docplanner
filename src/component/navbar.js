@@ -4,7 +4,7 @@ import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
 function Menu() {
   return (
     <div>
-<Navbar   collapseOnSelect expand="lg" bg="white" variant="light" fixed="top">
+<Navbar  className="px-5" collapseOnSelect expand="lg" bg="white" variant="light" fixed="top">
 <Navbar>
     <Navbar.Brand href="#home">
       <img
@@ -21,12 +21,14 @@ function Menu() {
     <Nav className="ml-auto">
       <Nav.Link href="#features">About us</Nav.Link>
       <Nav.Link href="#pricing">Career</Nav.Link>
-      <NavDropdown title="Departements" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+      <NavDropdown title="Departements" id="collasible-nav-dropdown" className="pr-5">
+        <NavDropdown.Item href="#action/3.1">Marketing & PR</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Custom success & Sales </NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">IT, Product, Data</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Departements</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Finance ,Administration</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">HR & more</NavDropdown.Item>
+
       </NavDropdown>
     </Nav>
 
